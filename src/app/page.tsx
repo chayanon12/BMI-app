@@ -2,7 +2,6 @@
 
 import { Button, Radio } from "antd";
 import { useState } from "react";
-import { SmileOutlined, MehOutlined, FrownOutlined } from "@ant-design/icons";
 
 export default function HomePage() {
   const [weight, setWeight] = useState("");
